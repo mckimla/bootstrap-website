@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: orange !important;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: underline;
+}
