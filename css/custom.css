@@ -4,16 +4,26 @@
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: orange !important;
+    background-color: #E9967A !important;
 }
 
 a {
-    color: orange;
+    color: #E9967A;
     text-decoration: none;
     background-color: transparent;
 }
 
 a:hover {
-    color: purple;
+    color: #A9A9A9;
     text-decoration: underline;
+}
+
+div.b {
+	color: #E9967A;
+	font-size: 400%;
+	font-weight: bold;
+}
+
+div.c {
+	color: #000000;
 }
