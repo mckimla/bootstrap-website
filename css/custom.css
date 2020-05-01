@@ -38,6 +38,22 @@ h3 { font: bold 1.5em Roboto, sans-serif;
     color: #E9967A;
 }
 
+h4 {
+  font: bold 2.0em Roboto, sans-serif;
+  height: 45px;
+  color: #E9967A;
+  padding-left: 10px;
+  margin: auto;
+}
+
+h4 {
+  font: bold 2.0em Roboto, sans-serif;
+  height: 45px;
+  color: #E9967A;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+
 p {
     font: 1.0em Roboto, sans-serif;
     color: #A9A9A9;
@@ -80,9 +96,10 @@ h1.display-4 {
 
 p.lead {
     color: black;
+    padding-left: 10px;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* Three image containers */
 .column {
   float: left;
   width: 33.33%;
@@ -127,23 +144,21 @@ p.lead {
 }
 
 
-/* Style all font awesome icons */
+/* Font Awesome Icons */
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
-  width: 50px;
+  width: 30px;
   text-align: right;
   text-decoration: none;
   margin: 5px 2px;
 }
 
-/* Add a hover effect if you want */
+/* FA Hover */
 .fa:hover {
   opacity: 0.7;
 
 }
-
-/* Set a specific color for each brand */
 
 /* Facebook */
 .fa-facebook {
@@ -157,16 +172,30 @@ p.lead {
   color: #E9967A;
 }
 
+/* Events Page Carousel */
 .carousel {
     width:640px;
-  height:360px;
+  height:425px;
   margin: auto;
 }
 
+/* Home Page Image Gallery Modal */
 .carousel-modal {
     width: 100%;
     margin: auto;
 }
 
+/* Buttons on Merchandise Page */
+.btn {
+    background-color: #E9967A;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
 
+/* Buttons Hover on Merchandise Page */
+.btn:hover {
+    background-color: #E9967A;
+    text-decoration: underline;
+}
 
