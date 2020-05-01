@@ -89,6 +89,12 @@ p.lead {
   padding: 5px;
 }
 
+.modalpic {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
 /* Clear floats after image containers */
 .row::after {
   content: "";
@@ -119,7 +125,7 @@ p.lead {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-}
+
 
 /* Style all font awesome icons */
 .fa {
@@ -156,5 +162,11 @@ p.lead {
   height:360px;
   margin: auto;
 }
+
+.carousel-modal {
+    width: 100%;
+    margin: auto;
+}
+
 
 
