@@ -23,6 +23,7 @@ h1 {
   font: bold 3.0em Roboto, sans-serif;
   height: 65px;
   color: #E9967A;
+  padding-left: 10px;
 }
 
 h2 {
@@ -30,6 +31,7 @@ h2 {
   height: 65px;
   color: white;
   background-color: #E9967A;
+  padding-left: 10px;
 }
 
 h3 { font: bold 1.5em Roboto, sans-serif;
@@ -39,6 +41,13 @@ h3 { font: bold 1.5em Roboto, sans-serif;
 p {
     font: 1.0em Roboto, sans-serif;
     color: #A9A9A9;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 100%;
+    line-height: 175%;
+    margin: 0 10% 0;
 }
 
 
@@ -70,15 +79,75 @@ h1.display-4 {
 }
 
 p.lead {
-    font: Roboto, sans-serif;
     color: black;
 }
 
-.center {
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.pics {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .about1 {
     margin-bottom: 25px;
 }
+.headerimage {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.exec {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: right;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: none;
+  color: #E9967A;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: none;
+  color: #E9967A;
+}
+
