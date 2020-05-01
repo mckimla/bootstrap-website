@@ -151,3 +151,10 @@ p.lead {
   color: #E9967A;
 }
 
+.carousel {
+    width:640px;
+  height:360px;
+  margin: auto;
+}
+
+
