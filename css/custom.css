@@ -46,7 +46,7 @@ h4 {
   margin: auto;
 }
 
-h4 {
+h5 {
   font: bold 2.0em Roboto, sans-serif;
   height: 45px;
   color: #E9967A;
@@ -198,4 +198,23 @@ p.lead {
     background-color: #E9967A;
     text-decoration: underline;
 }
+
+.biglittle1 {
+    margin-right: 20px;
+}
+
+.biglittle2 {
+    margin-left: 20px;
+}
+
+.dropdown-menu, .dropdown-item {
+    color: #E9967A;
+    text-decoration: none;
+    background-color: white;
+}
+
+.dropdown-menu, .dropdown-item:hover {
+    color: #A9A9A9;
+    background-color: white;
+} 
 
